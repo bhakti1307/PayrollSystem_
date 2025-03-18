@@ -22,15 +22,15 @@ Any Java IDE (Eclipse, IntelliJ IDEA, VS Code) or run via terminal
 2️⃣ Clone the Repository
 
     git clone https://github.com/your-repo-url.git
-    cd EmployeePayrollSystem
+    cd src
 
 3️⃣ Compile the Code
 
-    javac -d bin src/models/*.java src/services/*.java src/MainMenu.java
+    javac -d bin models/*.java services/*.java MainMenu.java
 
 4️⃣ Run the Application
 
-    java -cp bin MainMenu
+    java MainMenu.java
 
 📖 How to Use
 

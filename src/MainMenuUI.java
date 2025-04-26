@@ -26,7 +26,7 @@ public class MainMenuUI extends JFrame {
         // Heading Label (Centered)
         JLabel headingLabel = new JLabel("Payroll System", SwingConstants.CENTER);
         headingLabel.setFont(new Font("Arial", Font.BOLD, 30));
-        headingLabel.setForeground(Color.BLACK); // Heading text color
+        headingLabel.setForeground(Color.RED); // Heading text color
         headingLabel.setOpaque(true);
         headingLabel.setBackground(Color.YELLOW); // Make background of heading same as frame
         add(headingLabel, BorderLayout.NORTH);
